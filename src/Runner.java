@@ -18,5 +18,6 @@ public class Runner
             hint = trial1.getHint(guess);
         }
         System.out.println("Congrats you got the secret Word!");
+        in.close();
     }
 }
